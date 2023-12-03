@@ -13,7 +13,7 @@ namespace API.Controllers
 
         public ProductsController(StoreContext context)
         {
-            _context = context;
+            _context = context;//test
         }
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
